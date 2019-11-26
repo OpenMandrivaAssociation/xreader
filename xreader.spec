@@ -19,7 +19,6 @@ Group:          Publishing
 Url:            https://github.com/linuxmint/xreader
 Source:         https://github.com/linuxmint/%{name}/archive/%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
-BuildRequires:  gcc-c++
 BuildRequires:  gnome-common
 BuildRequires:  pkgconfig(libtiff-4) >= 3.6
 BuildRequires:  pkgconfig(kpathsea)
@@ -42,7 +41,7 @@ BuildRequires:  pkgconfig(webkit2gtk-4.0) >= 2.4.3
 BuildRequires:  pkgconfig(xapp) >= 1.1.0
 BuildRequires:  itstool
 BuildRequires:  meson
-BuildRequires:  mathjax
+#BuildRequires:  mathjax
 
 Requires:       %{name}-backends = %{version}-%{release}
 Obsoletes:      nemo-extension-xreader < %{version}-%{release}
