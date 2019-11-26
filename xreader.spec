@@ -11,7 +11,7 @@
 %define girxreaderview		%mklibname xreaderview-gir %{gir_major}
 
 Name:           xreader
-Version:        2.4.0
+Version:        2.4.1
 Release:        1
 Summary:        Simple document viewer
 License:        GPLv2 and LGPLv2
@@ -42,7 +42,7 @@ BuildRequires:  pkgconfig(xapp) >= 1.1.0
 BuildRequires:  itstool
 BuildRequires:  intltool
 BuildRequires:  meson
-#BuildRequires:  mathjax
+BuildRequires:  mathjax
 
 Requires:       %{name}-backends = %{version}-%{release}
 Obsoletes:      nemo-extension-xreader < %{version}-%{release}
