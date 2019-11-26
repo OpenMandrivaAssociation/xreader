@@ -40,6 +40,7 @@ BuildRequires:  pkgconfig(zlib)
 BuildRequires:  pkgconfig(webkit2gtk-4.0) >= 2.4.3
 BuildRequires:  pkgconfig(xapp) >= 1.1.0
 BuildRequires:  itstool
+BuildRequires:  intltool
 BuildRequires:  meson
 #BuildRequires:  mathjax
 
