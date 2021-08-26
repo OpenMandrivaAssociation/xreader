@@ -1,4 +1,9 @@
 %define _disable_lto 1
+# Disable LTO due compiling error:
+#../libdocument/ev-file-helpers.c:200: Error: XreaderDocument: identifier not found on the first line:
+#* This function is copied from
+#./libdocument/ev-document-misc.c:31: Error: XreaderDocument: identifier not found on the first line:
+#* Returns a new GdkPixbuf that is suitable for placing in the thumbnail view.
 
 %define major			3
 %define major_xreaderdocument	3
@@ -142,7 +147,7 @@ find %{buildroot} -name '*.la' -delete
 %{_datadir}/dbus-1/services/*.service
 %{_datadir}/glib-2.0/schemas/*.xml
 %{_datadir}/applications/%{name}.desktop
-%{_datadir}/appdata/%{name}.appdata.xml
+%{_datadir}/metainfo/xreader.appdata.xml
 %{_datadir}/icons/hicolor/*/*/*
 %{_mandir}/man?/*.*
 
