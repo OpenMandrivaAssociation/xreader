@@ -1,3 +1,5 @@
+%define _disable_lto 1
+
 %define major			3
 %define major_xreaderdocument	3
 %define major_xreaderview	3
