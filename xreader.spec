@@ -18,7 +18,7 @@
 %define girxreaderview		%mklibname xreaderview-gir %{gir_major}
 
 Name:           xreader
-Version:        3.0.2
+Version:        3.2.0
 Release:        1
 Summary:        Simple document viewer
 License:        GPLv2 and LGPLv2
