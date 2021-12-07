@@ -121,8 +121,7 @@ GObject Introspection interface description for XreaderView.
 
 %build
 %meson \
-  -Dintrospection=true \
-  -Dtests=false
+  -Dintrospection=true
 %meson_build
 
 %install
