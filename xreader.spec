@@ -5,6 +5,9 @@
 #./libdocument/ev-document-misc.c:31: Error: XreaderDocument: identifier not found on the first line:
 #* Returns a new GdkPixbuf that is suitable for placing in the thumbnail view.
 
+
+# 3.2.0+ compilation fails on aarch64 if one of huaweiomv builders is used. Compiling fine on builderX and synquacer.
+
 %define major			3
 %define major_xreaderdocument	3
 %define major_xreaderview	3
