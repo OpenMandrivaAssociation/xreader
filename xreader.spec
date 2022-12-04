@@ -136,7 +136,7 @@ find %{buildroot} -name '*.la' -delete
 
 %files -f %{name}.lang
 %license COPYING
-%doc AUTHORS README
+%doc AUTHORS README*
 %{_bindir}/%{name}
 %{_bindir}/%{name}-previewer
 %{_bindir}/%{name}-thumbnailer
@@ -155,12 +155,12 @@ find %{buildroot} -name '*.la' -delete
 
 %files -n %{libxreaderview}
 %license COPYING
-%doc AUTHORS README
+%doc AUTHORS README*
 %{_libdir}/libxreaderview.so.%{major_xreaderview}{,.*}
 
 %files -n %{libxreaderdocument}
 %license COPYING
-%doc AUTHORS README
+%doc AUTHORS README*
 %{_libdir}/libxreaderdocument.so.%{major_xreaderdocument}{,.*}
 
 %files -n %{girxreaderdocument}
@@ -178,5 +178,5 @@ find %{buildroot} -name '*.la' -delete
 
 %files backends
 %license COPYING
-%doc AUTHORS README
+%doc AUTHORS README*
 %{_libdir}/%{name}/%{major}/backends/
