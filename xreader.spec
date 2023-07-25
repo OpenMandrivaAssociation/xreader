@@ -7,6 +7,7 @@
 
 
 # 3.2.0+ compilation fails on aarch64 if one of huaweiomv builders is used. Compiling fine on builderX and synquacer.
+%global optflags %{optflags} -Wl,--allow-shlib-undefined
 
 %define major			3
 %define major_xreaderdocument	3
