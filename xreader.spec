@@ -40,6 +40,7 @@ BuildRequires:  pkgconfig(gobject-introspection-1.0) >= 0.6
 BuildRequires:  pkgconfig(gtk+-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(gtk+-unix-print-3.0)
+BuildRequires:  pkgconfig(ice)
 BuildRequires:  pkgconfig(libgxps) >= 0.2.0
 BuildRequires:  pkgconfig(libsecret-1) >= 0.5
 BuildRequires:  pkgconfig(libspectre) >= 0.2.0
@@ -49,6 +50,7 @@ BuildRequires:  pkgconfig(sm) >= 1.0.0
 BuildRequires:  pkgconfig(zlib)
 BuildRequires:  pkgconfig(webkit2gtk-4.0) >= 2.4.3
 BuildRequires:  pkgconfig(xapp) >= 1.1.0
+BuildRequires:  pkgconfig(x11)
 BuildRequires:  itstool
 BuildRequires:  intltool
 BuildRequires:  meson
