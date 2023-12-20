@@ -22,7 +22,7 @@
 %define girxreaderview		%mklibname xreaderview-gir %{gir_major}
 
 Name:           xreader
-Version:        3.8.4
+Version:        4.0.0
 Release:        1
 Summary:        Simple document viewer
 License:        GPLv2 and LGPLv2
@@ -49,7 +49,7 @@ BuildRequires:  pkgconfig(libxml-2.0) >= 2.5.0
 BuildRequires:  pkgconfig(poppler-glib) >= 0.16.0
 BuildRequires:  pkgconfig(sm) >= 1.0.0
 BuildRequires:  pkgconfig(zlib)
-BuildRequires:  pkgconfig(webkit2gtk-4.0) >= 2.4.3
+BuildRequires:  pkgconfig(webkit2gtk-4.1)
 BuildRequires:  pkgconfig(xapp) >= 1.1.0
 BuildRequires:  pkgconfig(x11)
 BuildRequires:  itstool
